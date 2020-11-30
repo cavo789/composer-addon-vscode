@@ -9,16 +9,12 @@
     },
     "categories": [
         "Snippets"
-    ],   
-    "keywords" : [ 
-        "composer" , 
-        "composer.json" 
+    ],
+    "keywords" : [
+        "composer" ,
+        "composer.json"
     ],
     "icon": "icon.png",
-    "activationEvents": [
-        "onLanguage:json",
-        "onFileSystem:composer.json"
-    ],
     "contributes": {
         "snippets": [
             {

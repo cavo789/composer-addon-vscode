@@ -83,7 +83,7 @@
                 }
             </style>
             <div class="container">
-                <h1>Composer - VSCode plugin</h1>
+                <h1>VSCode plugin</h1>
                 <p>Snippets for composer.json</p>
             </div>
         </div>

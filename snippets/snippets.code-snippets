@@ -4,13 +4,13 @@
         "description": "Insert an autoload/psr-4 block in the file",
         "body": [
             "\"autoload\": {",
-            "     \"psr-4\": {",
-            "          \"${1:YourNamespace}\\\\\\Classes\\\\\\\": \"src/Classes/\",",
-            "          \"${1:YourNamespace}\\\\\\Exceptions\\\\\\\": \"src/Exceptions/\",",
-            "          \"${1:YourNamespace}\\\\\\Helpers\\\\\\\": \"src/Helpers/\",",
-            "          \"${1:YourNamespace}\\\\\\\": [ \"src/\" ]",
-            "     }",
-            " },",
+            "    \"psr-4\": {",
+            "        \"${1:YourNamespace}\\\\\\Classes\\\\\\\": \"src/Classes/\",",
+            "        \"${1:YourNamespace}\\\\\\Exceptions\\\\\\\": \"src/Exceptions/\",",
+            "        \"${1:YourNamespace}\\\\\\Helpers\\\\\\\": \"src/Helpers/\",",
+            "        \"${1:YourNamespace}\\\\\\\": [ \"src/\" ]",
+            "    }",
+            "},",
         ]
     },
     "author": {
@@ -22,7 +22,7 @@
             "        \"name\": \"Christophe Avonture\",",
             "        \"email\": \"christophe@avonture.be\"",
             "    }",
-            "]"
+            "],"
         ]
     }
 }
