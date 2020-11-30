@@ -1,0 +1,30 @@
+{
+    "name": "composer-json-snippets",
+    "displayName": "Composer - Snippets for composer.json",
+    "description": "This little utility will help you when writing and maintaining your composer.json file.",
+    "version": "1.0.0",
+    "publisher": "Christophe Avonture",
+    "engines": {
+        "vscode": "^1.44.0"
+    },
+    "categories": [
+        "Snippets"
+    ],   
+    "keywords" : [ 
+        "composer" , 
+        "composer.json" 
+    ],
+    "icon": "icon.png",
+    "activationEvents": [
+        "onLanguage:json",
+        "onFileSystem:composer.json"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "json",
+                "path": "./snippets/snippets.code-snippets"
+            }
+        ]
+    }
+}
