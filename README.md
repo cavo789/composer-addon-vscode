@@ -24,9 +24,10 @@ Make sure the extension is installed by clicking on it and verify his status.
 ![Demo](./composer.gif)
 ## List of snippets
 
-* `autoload`: Insert an autoload/psr-4 block in the file
-* `authors`: Insert an authors block in the file
-
+* `autoload`: Insert an autoload/psr-4 block in the file,
+* `authors`: Insert an authors block in the file,
+* `repositories`: Insert a repositories block in the file,
+* `require`: Insert a require and require-dev block in the file with commonly used dependencies.
 ## License
 
 [MIT](LICENSE)

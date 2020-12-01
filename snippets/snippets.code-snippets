@@ -6,14 +6,16 @@
             "\"autoload\": {",
             "    \"psr-4\": {",
             "        \"${1:YourNamespace}\\\\\\Classes\\\\\\\": \"src/Classes/\",",
+            "        \"${1:YourNamespace}\\\\\\Events\\\\\\\": \"src/Events/\",",
             "        \"${1:YourNamespace}\\\\\\Exceptions\\\\\\\": \"src/Exceptions/\",",
             "        \"${1:YourNamespace}\\\\\\Helpers\\\\\\\": \"src/Helpers/\",",
+            "        \"${1:YourNamespace}\\\\\\Listeners\\\\\\\": \"src/Listeners/\",",
             "        \"${1:YourNamespace}\\\\\\\": [ \"src/\" ]",
             "    }",
             "},",
         ]
     },
-    "author": {
+    "authors": {
         "prefix": "authors",
         "description": "Insert an authors block in the file",
         "body": [
@@ -23,6 +25,36 @@
             "        \"email\": \"christophe@avonture.be\"",
             "    }",
             "],"
+        ]
+    },
+    "repositories": {
+        "prefix": "repositories",
+        "description": "Insert a repositories block in the file",
+        "body": [
+            "\"repositories\": [",
+            "    {",
+            "        \"type\": \"path\",",
+            "        \"url\": \"./../../your_project_root\",",
+            "        \"options\": {",
+            "            \"symlink\": true",
+            "        },",
+            "        \"__type\": \"vcs\",",
+            "        \"__url\": \"https://your_url/your_project.git\"",
+            "    }",
+            "],"
+        ]
+    },    
+    "require": {
+        "prefix": "require",
+        "description": "Insert a require and require-dev block in the file with commonly used dependencies",
+        "body": [
+            "\"require\": {",
+            "    \"php\": \">=7.2\",",
+            "    \"webmozart/assert\": \">=1.9\"",
+            "},",
+            "\"require-dev\": {",
+            "    \"rector/rector\": \"9999999-dev\"",
+            "},"
         ]
     }
 }
