@@ -2,7 +2,7 @@
 
 ![Banner](./banner.svg)
 
-This little utility will help you when writing and maintaining your composer.json file.
+This utility will help you when writing and maintaining your `composer.json` file. It will also help by linting your file against [http://json.schemastore.org/composer](http://json.schemastore.org/composer) and notify you if your file isn't valid.
 
 ## How to use
 

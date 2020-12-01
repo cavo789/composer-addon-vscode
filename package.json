@@ -3,12 +3,20 @@
     "displayName": "Composer - Snippets for composer.json",
     "description": "This little utility will help you when writing and maintaining your composer.json file.",
     "version": "1.0.0",
-    "publisher": "Christophe Avonture",
+    "author": "Christophe Avonture",
+    "license": "MIT",
     "engines": {
         "vscode": "^1.44.0"
+    },    
+    "homepage": "https://github.com/cavo789/composer-addon-vscode/",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/cavo789/composer-addon-vscode.git"
     },
     "categories": [
-        "Snippets"
+        "Programming Languages",
+        "Snippets",
+        "Linters"
     ],
     "keywords" : [
         "composer" ,
@@ -20,6 +28,12 @@
             {
                 "language": "json",
                 "path": "./snippets/snippets.code-snippets"
+            }
+        ],
+        "jsonValidation": [
+            {
+              "fileMatch": "composer.json",
+              "url": "http://json.schemastore.org/composer"
             }
         ]
     }
