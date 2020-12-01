@@ -21,10 +21,11 @@ In order to verify if the extension is correctly installed, open your extensions
 
 Make sure the extension is installed by clicking on it and verify his status.
 
+![Demo](./composer.gif)
 ## List of snippets
 
 * `autoload`: Insert an autoload/psr-4 block in the file
-* `authors`: Insert an authors block in the file 
+* `authors`: Insert an authors block in the file
 
 ## License
 
